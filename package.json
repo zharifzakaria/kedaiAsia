@@ -1,0 +1,12 @@
+{
+  "name": "kedaiasia",
+  "version": "1.0.0",
+  "description": "Simple website using Twitter-bootstrap3 and Gulp.js Website url: www.inspire.org.my",
+  "main": "index.html",
+  "author": "zharifzakaria",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}

@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0; }
+body { background: #fde000; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+h1 {padding-bottom: .5em;}
+
+.header {padding: 3em;}
+
+.header img {
+  float: left;
+}
+
+.header h1 {
+  position: relative;
+  left: 2%;
+}
+
+.menunav {margin-top: 4.5em;}
+.menunav li{display: inline; padding: 2em;}
+
+#headline {background:transparent;color: white; border-bottom: 12px solid #4e4e4e;}
+#headline p {border: 4px solid white; padding: 3em; text-align: center; max-width: 800px;margin-left: auto;margin-right: auto;}
+
+#location {background-color:#4e4e4e;color: white;}
+#location h1,p{padding-left:5%;}
+
+#headline.bg1 {
+  background: url('http://localhost/kedaiAsia/img/bg.jpg') no-repeat left center;
+  background-attachment: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+#footer {padding:6em;}
+#footer h4,p{color:#ffffff;}
+
+.portfolio-item {margin-bottom: 25px;}
+
+.square {width:300px; height:300px;}
+.spongetop {padding:1.6em;}
+
+.doorian {width:220px; height: 220px; margin: auto;}
+.logoKA {width:80px; height: 80px;}
+
+.roundo {padding: 2em; 
+		-webkit-border-radius:20px; 
+		-moz-border-radius:20px; 
+		border-radius: 20px; 
+		background-color:#4e4e4e;
+}
