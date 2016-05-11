@@ -24,7 +24,7 @@ h1 {padding-bottom: .5em;}
 #location h1,p{padding-left:5%;}
 
 #headline.bg1 {
-  background: url('http://localhost/kedaiAsia/img/bg.jpg') no-repeat left center;
+  background: url('http://www.kedai.asia/img/bg.jpg') no-repeat left center;
   background-attachment: fixed;
   width: 100%;
   z-index: -1;
