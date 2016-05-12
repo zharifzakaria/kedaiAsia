@@ -8,14 +8,14 @@
     <meta name="keywords" content="Laman Cerdik, Tadika, Taska, Putrajaya, Presint 11, Presint 9">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Kedai.Asia</title>
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/navbar.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
   </head>
 
   <!--Body-->
@@ -28,31 +28,24 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="container" style="height:10em;">
+<div id="naviga" class="container-fluid">
   <div class="row">
       <div class="col-md-6 header"><img class="logoKA" src="img/kedaiasiaLogo.svg" alt="logo" /><h1>kedai.asia</h1></div>
-      <ul class="col-md-6 menunav push-right visible-lg">
-        <li>Hello</li>
-        <li>About</li>
-        <li>Product</li>
-        <li>Contact</li>
-      </ul> 
   </div>
 </div>
 
 <!--Separator Image-->
-<div id="headline" class="jumbotron bg1">
-  <div class="container">
-    <p>Kedai Asia, or the Asian Shop in the Malaysian language is the place to be for authentic flavours and rare delicacies — Truly Asian Flavours.</p>
-  </div>
+<div class="bg"></div>
+<div class="jumbotron">
+  <p>Kedai Asia, or the Asian Shop in the Malaysian language is the place to be for authentic flavours and rare delicacies — Truly Asian Flavours.</p>
 </div>
 
 <!--Our Story-->
-<div class="container">
-  <div class="col-sm-3" style="padding-top:.8em;">
+<div class="container" style="margin-top:-100px">
+  <div class="col-sm-3">
     <img class="doorian img-responsive" src="img/doorian.svg" alt="doorian">
   </div>
-  <div class="col-sm-9" style="padding-top:.8em;">
+  <div class="col-sm-9">
     <h1>Our Story..</h1>
     <p style="color:#000000;">Our story began with the meeting of two friends, one from the sunny city Jeddah the other from the green metropolis, Kuala Lumpur. They both share a passion for good food and conversation, and in Jeddah they stumbled upon an inspiration - to bring together good food and delicacies from the four corners of Asia to a single destination.</p>
     <p style="color:#000000;">Thus began their flagship store, an abode of flavours, delights and more. Come sample our wonderful products, the best Asian food experience, all here in Jeddah.</p>
@@ -136,6 +129,17 @@
   </div>
 </footer>
 
+<script type="text/javascript">
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+</script>
 
   </body>
 </html>
